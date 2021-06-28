@@ -1,7 +1,7 @@
 #!/bin/sh
 #
-# tcping: test response times using TCP SYN packets
-#          URL: http://www.vdberg.org/~richard/tcping.html
+# tcpping: test response times using TCP SYN packets
+#          URL: http://www.vdberg.org/~richard/tcpping.html
 #
 # uses tcptraceroute from http://michael.toren.net/code/tcptraceroute/
 #
@@ -33,7 +33,7 @@ topts=""
 
 usage () {
 	name=`basename $0`
-	echo "tcping $ver Richard van den Berg <richard@vdberg.org>"
+	echo "tcpping $ver Richard van den Berg <richard@vdberg.org>"
 	echo
 	echo "Usage: $name [-d] [-c] [-C] [-w sec] [-q num] [-x count] ipaddress [port]"
 	echo
