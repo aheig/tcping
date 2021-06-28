@@ -1,7 +1,15 @@
 # tcping
+Debian & Ubuntu
 ```
-wget -O /usr/bin/tcping https://raw.githubusercontent.com/aheig/tcping/main/tcping && chmod +x /usr/bin/tcping
+apt install -y tcptraceroute bc
+cd /usr/local/bin && wget -O tcping https://raw.githubusercontent.com/aheig/tcping/main/TCP-PING && chmod +x tcping
 ```
+Windows
 ```
-tcping qq.com 443
+cd %WINDIR% winget wget -O tcping https://raw.githubusercontent.com/aheig/tcping/main/tcping.exe
 ```
+# Use
+```
+tcping qq.com 3389
+```
+
