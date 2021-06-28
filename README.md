@@ -1,5 +1,5 @@
 # tcping
-# Instal
+# Install
 Debian/Ubuntu
 ```
 apt install -y tcptraceroute bc
