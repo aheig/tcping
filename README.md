@@ -1,12 +1,18 @@
 # tcping
-Debian & Ubuntu
+# Instal
+Debian/Ubuntu
 ```
 apt install -y tcptraceroute bc
 cd /usr/local/bin && wget -O tcping https://raw.githubusercontent.com/aheig/tcping/main/TCP-PING && chmod +x tcping
 ```
+CentOS/RadHat 
+```
+yum install epel-release
+yum install tcping
+```
 Windows
 ```
-cd %WINDIR% winget wget -O tcping https://raw.githubusercontent.com/aheig/tcping/main/tcping.exe
+cd %WINDIR% winget tcping https://raw.githubusercontent.com/aheig/tcping/main/tcping.exe
 ```
 # Use
 ```
