@@ -3,7 +3,7 @@
 Debian/Ubuntu
 ```
 apt install -y tcptraceroute bc
-cd /usr/local/bin && wget -O tcping https://raw.githubusercontent.com/aheig/tcping/main/TCP-PING
+cd /usr/bin && wget -O tcping https://raw.githubusercontent.com/aheig/tcping/main/TCP-PING
 chmod +x tcping
 ```
 CentOS/RadHat 
